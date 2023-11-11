@@ -3,7 +3,9 @@
 
 # MJDelas's Website
 
-An engaging 1-3 sentence description of your lab.
+This website is under construction. If you have ended up here, be kind.
+
+The lab will open at the LMCB, UCL in spring 2024. 
 
 {% include section.html %}
 
