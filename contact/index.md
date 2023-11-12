@@ -14,8 +14,8 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
+  text="joaquina.delas@crick.ac.uk"
+  link="joaquina.delas@crick.ac.uk"
 %}
 {%
   include button.html
