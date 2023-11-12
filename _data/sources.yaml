@@ -27,3 +27,6 @@
 
 - id: doi:10.1016/j.devcel.2022.11.016
   image: https://www.cell.com/cms/attachment/fd30bdc8-2e3c-4854-8c82-956355b50d04/fx1.jpg
+
+- id: doi:10.1038/s41556-022-00910-2
+  image: images/Fig_BCat_Sox2_model.png
