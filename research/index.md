@@ -16,8 +16,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 {% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
 
-{% include citation.html lookup="Developmental cell fate choice in neural tube progenitors employs two distinct
-    cis-regulatory strategies" style="rich" %}
+{% include citation.html lookup="Developmental cell fate choice in neural tube progenitors employs two distinct cis-regulatory strategies" style="rich" %}
 
 {% include section.html %}
 
