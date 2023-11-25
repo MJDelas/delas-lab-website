@@ -30,3 +30,6 @@
 
 - id: doi:10.1038/s41556-022-00910-2
   image: images/Fig_BCat_Sox2_model.png
+
+- id: doi:10.1016/bs.ctdb.2020.03.003
+  image: images/Fig_Delas_CTDB.png
