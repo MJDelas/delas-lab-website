@@ -7,7 +7,7 @@ pi:
   description: Principal Investigator
 
 postdoc:
-  icon: fa-solid fa-glasses
+  icon: fa-solid fa-microscope
   description: Postdoctoral Researcher
 
 phd:
@@ -18,9 +18,9 @@ undergrad:
   icon: fa-solid fa-user-graduate
   description: Undergraduate Student
 
-programmer:
+ra:
   icon: fa-solid fa-code
-  description: Programmer
+  description: Research Assistant
 
 mascot:
   icon: fa-solid fa-dog

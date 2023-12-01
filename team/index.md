@@ -7,28 +7,36 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We are currently recruiting at multiple levels as part of our generous funding from [Wellcome Trust](https://wellcome.org/grant-funding/schemes/career-development-awards). 
 
 {% include section.html %}
 
 {% include list.html data="members" component="portrait" filters="role: pi" %}
 {% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
 
-{% include section.html background="images/background.jpg" dark=true %}
+{% include section.html background="images/UCL.jpg" dark=true %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We are currently *recruiting*. Please reach out if interested! 
 
 {% include section.html %}
 
+## Postdoctoral Positions:
+
+If you are interested in joining our lab as Postdoctoral Fellow, please contact Joaquina.
+
+## PhD Students:
+
+For informal equiries, please contact Joaquina. You can also find more about the PhD programs we are associated with: 
+- [Wellcome Optical Biology Programme](https://opticalbiology.org/)
+- [LMCB PhD programme](https://www.ucl.ac.uk/lmcb/mcb-phd-programme)
+
+## Research Assisstant
+
+Please contact Joaquina.
+
 {% capture content %}
 
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
+
 
 {% endcapture %}
 
