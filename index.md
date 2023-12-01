@@ -3,7 +3,7 @@
 
 # MJDelas's Website
 
-This website is under construction. If you have ended up here, be kind.
+This website is under construction, more content coming soon. If you have ended up here, be kind.
 
 The lab will open at the LMCB, UCL in spring 2024. 
 
