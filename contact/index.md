@@ -7,9 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+You can find us at the [Laboratory for Molecular Cell Biology (LMCB)](https://www.ucl.ac.uk/lmcb/lmcb-ucl) at [University College](https://www.ucl.ac.uk/)
 
 {%
   include button.html
@@ -17,17 +15,12 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   text="joaquina.delas@crick.ac.uk"
   link="joaquina.delas@crick.ac.uk"
 %}
-{%
-  include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
-%}
+
 {%
   include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  link="https://maps.app.goo.gl/EvCwEkcWjJmP7iBt6"
 %}
 
 {% include section.html %}
@@ -36,8 +29,8 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/UCL_main.jpg"
+  caption="UCL"
 %}
 
 {% endcapture %}
@@ -46,8 +39,8 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/LMCB_UCL.jpg"
+  caption="LMCB within UCL"
 %}
 
 {% endcapture %}
