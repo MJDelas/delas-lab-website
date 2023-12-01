@@ -1,7 +1,7 @@
 ---
 ---
 
-# MJDelas's Website
+# Delas Lab website
 
 This website is under construction, more content coming soon. If you have ended up here, be kind.
 
