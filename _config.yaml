@@ -1,6 +1,6 @@
 # site properties and page defaults
 title: Delas Lab
-subtitle: 
+subtitle: at University College London
 description: An engaging 1-3 sentence description of your lab.
 header: images/background.jpg
 footer: images/background.jpg
@@ -9,10 +9,9 @@ footer: images/background.jpg
 links:
   email: joaquina.delas@crick.ac.uk
   orcid: 0000-0001-9727-9068
-  google-scholar: ETJoidYAAAAJ
+  google-scholar: MNz5Cq8AAAAJ
   github: MJDelas
   twitter: joadelas
-  youtube: 
 
 ### jekyll settings
 
