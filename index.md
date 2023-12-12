@@ -15,7 +15,7 @@ The lab will open at the [LMCB, UCL](https://www.ucl.ac.uk/lmcb/lmcb-ucl) in spr
 
 {% capture text %}
 
-We are passionate about development, differentiation and gene regulation. We combine dry and wet lab, spanning from cellular models and embryology, genomics and lots of flow cytometry.
+We are passionate about development, differentiation and gene regulation. We combine dry and wet lab, spanning from cellular models to embryology, genomics and lots of flow cytometry.
 
 {%
   include button.html
