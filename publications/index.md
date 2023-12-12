@@ -5,7 +5,9 @@ nav:
   tooltip: Our publications
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Publications
+# {% include icon.html icon="fa-solid fa-book" %}Publications
+
+You can find a selection and all our publications below. We are big fans of pre-prints, as they accelerate science and make it more accessible, and that is why you might find some of them twice.
 
 {% include section.html %}
 

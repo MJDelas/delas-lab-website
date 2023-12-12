@@ -1,24 +1,26 @@
 ---
 ---
 
-# Delas Lab website
+# Cis regulatory control during development
 
-This website is under construction, more content coming soon. If you have ended up here, be kind.
+Our lab is interested in understanding how cis-regulatory elements control cell fate decisions during development. While we know these non-coding sequences control gene expression, how they achieve this is still not understood. We have a particular interest in repressors, and how they act via cis-regulatory elements to mediate gene silencing.
+ 
+We do this by combining stem-cell derived and in vivo models. By using state-of-the-art genomics, proteomics and microscopy approaches we aim at understanding gene regulatory control by non-coding DNA elements at a molecular level during developmentally relevant cell fate decisions.
 
 The lab will open at the [LMCB, UCL](https://www.ucl.ac.uk/lmcb/lmcb-ucl) in spring 2024. 
 
 {% include section.html %}
 
-## Highlights
+## Learn more!
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We are passionate about development, differentiation and gene regulation. We combine dry and wet lab, spanning from cellular models and embryology, genomics and lots of flow cytometry.
 
 {%
   include button.html
   link="research"
-  text="See our publications"
+  text="Lear more about our research"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -28,40 +30,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/cover_research.jpg"
   link="research"
   title="Our Research"
   text=text
 %}
 
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We are currently recruiting to build our team. We are looking for people at all levels, and very keen to have diverse expertise and perspectives.
 
 {%
   include button.html
@@ -76,8 +54,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/cover_team.jpg"
   link="team"
   title="Our Team"
+  flip=true
+  style="bare"
   text=text
 %}
