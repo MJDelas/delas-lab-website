@@ -5,7 +5,7 @@ nav:
   tooltip: Join our team
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}We are recruiting
+# {% include icon.html icon="fa-solid fa-user-plus" %}We are recruiting
 
 We are currently recruiting at multiple levels as part of our generous funding from [Wellcome Trust](https://wellcome.org/grant-funding/schemes/career-development-awards). 
 

@@ -5,7 +5,7 @@ nav:
   tooltip: Learn about our research
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Research
+# {% include icon.html icon="fa-solid fa-flask-vial" %}Research
 
 During development cells specialise in response to signaling cues. To accomplish this, they must turn on and (importantly!) off gene expression programs. Cis-regulatory elements are stretches of DNA within the non-coding genome that can control gene expression with exquisite spatial and temporal precision. We know that cis-regulatory elements are bound by transcription factors, but it is still not trivial to find them and we are not able to predict their activity from sequence. 
 
