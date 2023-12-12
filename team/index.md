@@ -9,6 +9,15 @@ nav:
 
 We are currently recruiting at multiple levels as part of our generous funding from [Wellcome Trust](https://wellcome.org/grant-funding/schemes/career-development-awards). 
 
+{%
+  include button.html
+  link="recruitment"
+  text="Reach out"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
 {% include section.html %}
 
 {% include list.html data="members" component="portrait" filters="role: pi" %}
@@ -16,27 +25,13 @@ We are currently recruiting at multiple levels as part of our generous funding f
 
 {% include section.html background="images/UCL.jpg" dark=true %}
 
-We are currently *recruiting*. Please reach out if interested! 
+Do you want to hear more?
 
 {% include section.html %}
 
-## Postdoctoral Positions:
-
-If you are interested in joining our lab as Postdoctoral Fellow, please contact Joaquina.
-
-## PhD Students:
-
-For informal equiries, please contact Joaquina. You can also find more about the PhD programs we are associated with: 
-- [Wellcome Optical Biology Programme](https://opticalbiology.org/)
-- [LMCB PhD programme](https://www.ucl.ac.uk/lmcb/mcb-phd-programme)
-
-## Research Assisstant
-
-Please contact Joaquina.
+We are currently **recruiting**. Please [reach out](/recruitment) if interested! 
 
 {% capture content %}
-
-
 
 {% endcapture %}
 
