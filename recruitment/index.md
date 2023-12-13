@@ -11,17 +11,17 @@ We are currently recruiting at multiple levels as part of our generous funding f
 
 ## Postdoctoral Positions:
 
-If you are interested in joining our lab as Postdoctoral Fellow, please [email Joaquina](/contact) with your research interests and your CV.
+If you are interested in joining our lab as a Postdoctoral Fellow, please [email Joaquina](/contact) with your research interests and your CV.
 
 ## PhD Students:
 
-For informal equiries, please [email Joaquina](/contact) explaining your academic background and research interests and attaching your CV.
+For informal equiries, please [email Joaquina](/contact) with your CV, explaining your academic background and research interests.
 
 You can also find more about the PhD programs we are associated with: 
 - [Wellcome Optical Biology Programme](https://opticalbiology.org/)
 - [LMCB PhD programme](https://www.ucl.ac.uk/lmcb/mcb-phd-programme)
 
-## Research Assisstant
+## Research Assistant
 
 Please [email Joaquina](/contact) with your interests and CV. 
 
