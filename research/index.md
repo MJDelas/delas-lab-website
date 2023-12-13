@@ -13,7 +13,7 @@ The primary goal of our research is to understand how the **non-coding genome** 
 
 {% capture text %}
 
-To  bridge molecular mechanisms of cis regulation to developmental phenotypic consequences, we combine _in vivo_ embryology with _in vitro_ cellular models that recapitulate the same cell fate decisions. Our favorite model system is the developing spinal cord, where a small combination of signal direct the specification of neural progenitors and therefore which neurons they will make. 
+To  bridge molecular mechanisms of cis regulation to developmental phenotypic consequences, we combine _in vivo_ embryology with _in vitro_ cellular models that recapitulate the same cell fate decisions. Our favorite model system is the developing spinal cord, where a small combination of signals direct the specification of neural progenitors and therefore which neurons they will make. 
 
 {% endcapture %}
 

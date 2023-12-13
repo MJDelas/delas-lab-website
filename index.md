@@ -5,7 +5,7 @@
 
 Our lab is interested in understanding how cis-regulatory elements control cell fate decisions during development. While we know these non-coding sequences control gene expression, how they achieve this is still not understood. We have a particular interest in repressors, and how they act via cis-regulatory elements to mediate gene silencing.
  
-We do this by combining stem-cell derived and in vivo models. By using state-of-the-art genomics, proteomics and microscopy approaches we aim at understanding gene regulatory control by non-coding DNA elements at a molecular level during developmentally relevant cell fate decisions.
+We do this by combining stem-cell derived and in vivo models. By using state-of-the-art genomics, proteomics and microscopy approaches, we aim at understanding gene regulatory control by non-coding DNA elements at a molecular level during developmental cell fate decisions.
 
 The lab will open at the [LMCB, UCL](https://www.ucl.ac.uk/lmcb/lmcb-ucl) in spring 2024. [**Join us!**](/recruitment)
 
