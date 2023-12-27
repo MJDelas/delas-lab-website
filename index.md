@@ -18,7 +18,7 @@ We are passionate about development, differentiation and gene regulation. We com
 {%
   include button.html
   link="research"
-  text="Lear more about our research"
+  text="Learn more about our research"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
