@@ -12,8 +12,8 @@ You can find us at the [Laboratory for Molecular Cell Biology (LMCB)](https://ww
 {%
   include button.html
   type="email"
-  text="joaquina.delas@crick.ac.uk"
-  link="joaquina.delas@crick.ac.uk"
+  text="j.delas@ucl.ac.uk"
+  link="j.delas@ucl.ac.uk"
 %}
 
 {%
