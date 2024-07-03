@@ -1,7 +1,7 @@
 ---
 name: Junyi Luo
 image: images/photo_JunyiLuo.jpg
-role: ra
+role: undergrad
 links:
 ---
 
