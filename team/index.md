@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-We are currently recruiting at multiple levels as part of our generous funding from [Wellcome](https://wellcome.org/grant-funding/schemes/career-development-awards). 
+Our team is still growing!
 
 {%
   include button.html
