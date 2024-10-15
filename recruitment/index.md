@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-user-plus" %}Join our team:
 
-Our team is still growing! We are generously funding by [Wellcome](https://wellcome.org/grant-funding/schemes/career-development-awards). 
+Our team is still growing. We are generously funding by [Wellcome](https://wellcome.org/grant-funding/schemes/career-development-awards). 
 
 ## Postdoctoral Positions:
 
