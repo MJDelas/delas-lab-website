@@ -11,7 +11,7 @@ Meet out team:
 
 {%
   include figure.html
-  image="images/images/photo_lab.jpeg"
+  image="images/photo_lab.jpeg"
   width="100%"
 %}
 
