@@ -10,9 +10,9 @@ nav:
 Meet out team:
 
 {%
-  include feature.html
-  image="images/photo_lab.jpeg"
-  text=text
+  include figure.html
+  image="images/images/photo_lab.jpeg"
+  width="100%"
 %}
 
 {%
