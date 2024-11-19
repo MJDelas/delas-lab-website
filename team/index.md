@@ -10,6 +10,12 @@ nav:
 Meet out team:
 
 {%
+  include feature.html
+  image="images/photo_lab.jpeg"
+  text=text
+%}
+
+{%
   include button.html
   link="recruitment"
   text="Reach out"
@@ -29,7 +35,7 @@ Do you want to hear more?
 
 {% include section.html %}
 
-We are currently **recruiting**. Please [reach out](/recruitment) if interested! 
+Please [reach out](/recruitment) if you are interested in joining. We are happy to support Early Career/postdoc fellowships. 
 
 {% capture content %}
 
