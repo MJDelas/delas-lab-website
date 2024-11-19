@@ -9,6 +9,12 @@ We do this by combining stem-cell derived and in vivo models. By using state-of-
 
 We are located at the [LMCB, UCL](https://www.ucl.ac.uk/lifesciences-faculty/laboratory-molecular-cell-biology/research/research-groups/delas-lab). We are currently building out team to get in touch if you would like to [**join us!**](/recruitment)
 
+{%
+  include figure.html
+  image="images/photo_lab.jpeg"
+  width="75%"
+%}
+
 {% include section.html %}
 
 {% capture text %}

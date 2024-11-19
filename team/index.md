@@ -7,22 +7,8 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Meet out team:
+Meet our team:
 
-{%
-  include figure.html
-  image="images/photo_lab.jpeg"
-  width="100%"
-%}
-
-{%
-  include button.html
-  link="recruitment"
-  text="Reach out"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
 
 {% include section.html %}
 
