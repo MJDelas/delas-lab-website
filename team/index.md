@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Our team is still growing!
+Meet out team:
 
 {%
   include button.html
