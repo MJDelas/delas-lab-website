@@ -1,5 +1,5 @@
 ---
-name: Maria Millet Perez
+name: Maria Perez Millet 
 image: images/photo_maria.jpg
 role: ra
 links:
