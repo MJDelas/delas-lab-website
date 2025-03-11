@@ -1,5 +1,29 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1101/2025.03.07.642002
+  title: Predictable Engineering of Signal-Dependent Cis-Regulatory Elements
+  authors:
+  - Jake Cornwall-Scoones
+  - Dirk Benzinger
+  - Tianji Yu
+  - Alberto Pezzotta
+  - Andreas Sagner
+  - Lina Gerontogianni
+  - Shaun Bernadet
+  - Elizabeth Finnie
+  - Giulia L. M. Boezio
+  - Hannah T. Stuart
+  - Manuela Melchionda
+  - Oliver C. K. Inge
+  - Bianca Dumitrascu
+  - James Briscoe
+  - M. Joaquina Delas
+  publisher: Cold Spring Harbor Laboratory
+  date: '2025-03-07'
+  link: https://doi.org/g87vp8
+  orcid: 0000-0001-9727-9068
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1101/2024.04.17.589864
   title: The cis-regulatory logic integrating spatial and temporal patterning in the
     vertebrate neural tube
