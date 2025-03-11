@@ -22,6 +22,7 @@ For informal equiries, please [email Joaquina](/contact) with your CV, explainin
 The LMCB host PhD students from a range of programs: [Study at the LMCB](https://www.ucl.ac.uk/lifesciences-faculty/laboratory-molecular-cell-biology/education-and-training/study-lmcb/phd-programmes)
 
 Our lab is recruiting through: 
+- [UCL Research Excellence Scholarship](https://www.ucl.ac.uk/scholarships/research-excellence-scholarship)
 - [LMCB PhD programme](https://www.ucl.ac.uk/lifesciences-faculty/laboratory-molecular-cell-biology/education-and-training/study-lmcb/phd-programmes/molecular-cell)
 - [UCL Birkbeck MRC DTP](https://www.uclbbk-mrcdtp.ac.uk/)
 - [BBSRC LiDO](https://www.lido-dtp.ac.uk/)
