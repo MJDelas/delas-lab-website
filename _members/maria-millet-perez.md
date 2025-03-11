@@ -1,7 +1,7 @@
 ---
 name: Maria Perez Millet 
 image: images/photo_maria.jpg
-role: ra
+role: phd
 links:
 ---
 
