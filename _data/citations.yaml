@@ -24,7 +24,7 @@
   orcid: 0000-0001-9727-9068
   plugin: sources.py
   file: sources.yaml
-  image: https://bsky.app/profile/jcornwallscoones.bsky.social/post/3ljzntj46ic2n
+  image: images/paper-picture-jake.png
 - id: doi:10.1101/2024.04.17.589864
   title: The cis-regulatory logic integrating spatial and temporal patterning in the
     vertebrate neural tube
