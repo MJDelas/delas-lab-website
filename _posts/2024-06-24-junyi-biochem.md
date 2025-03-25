@@ -1,5 +1,5 @@
 ---
-title: Marcella starts her Biochemical Society summar studentship
+title: Marcella starts her Biochemical Society summer studentship
 author: junyi-luo
 tags: honors-and-awards
 ---
