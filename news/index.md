@@ -2,7 +2,7 @@
 title: News
 nav:
   order: 6
-  tooltip: Musings and miscellany
+  tooltip: Latest from the lab
 ---
 
 # {% include icon.html icon="fa-solid fa-newspaper" %}News
