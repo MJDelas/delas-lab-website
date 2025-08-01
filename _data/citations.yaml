@@ -1,5 +1,27 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1016/j.devcel.2025.06.029
+  title: The cis-regulatory logic integrating spatial and temporal patterning in the
+    vertebrate neural tube
+  authors:
+  - Isabel Zhang
+  - Giulia L.M. Boezio
+  - Jake Cornwall-Scoones
+  - Thomas Frith
+  - Elizabeth Finnie
+  - Junyi Luo
+  - Ming Jiang
+  - Michael Howell
+  - Robin Lovell-Badge
+  - Andreas Sagner
+  - James Briscoe
+  - "M. Joaquina Del\xE1s"
+  publisher: Developmental Cell
+  date: '2025-07-01'
+  link: https://doi.org/g9vv4c
+  orcid: 0000-0001-9727-9068
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1101/2025.05.28.656648
   title: 'Dynamic Landscape Analysis of Cell Fate Decisions: Predictive Models of
     Neural Development From Single-Cell Data'
