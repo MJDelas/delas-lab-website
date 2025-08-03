@@ -15,8 +15,7 @@ You can find a selection and all our publications below. We are big fans of pre-
 
 {% include citation.html lookup="Predictable Engineering of Signal-Dependent Cis-Regulatory Elements" style="rich" %}
 
-{% include citation.html lookup="The cis-regulatory logic integrating spatial and temporal patterning in the
-    vertebrate neural tube" style="rich" %}
+{% include citation.html lookup="The cis-regulatory logic integrating spatial and temporal patterning in the vertebrate neural tube" style="rich" %}
 
 {% include citation.html lookup="Developmental cell fate choice in neural tube progenitors employs two distinct cis-regulatory strategies" style="rich" %}
 
