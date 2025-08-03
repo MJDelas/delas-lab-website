@@ -22,7 +22,7 @@
   orcid: 0000-0001-9727-9068
   plugin: sources.py
   file: sources.yaml
-  image: images/model_tempo_space_square.png
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S1534580725004071-fx1.jpg
 - id: doi:10.1101/2025.05.28.656648
   title: 'Dynamic Landscape Analysis of Cell Fate Decisions: Predictive Models of
     Neural Development From Single-Cell Data'
@@ -85,6 +85,7 @@
   orcid: 0000-0001-9727-9068
   plugin: sources.py
   file: sources.yaml
+  image: images/model_tempo_space_square.png
 - id: doi:10.1016/j.devcel.2022.11.016
   title: Developmental cell fate choice in neural tube progenitors employs two distinct
     cis-regulatory strategies
