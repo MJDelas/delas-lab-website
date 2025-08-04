@@ -73,7 +73,7 @@ We are currently recruiting to build our team. We are looking for people at all 
   text=text
 %}
 
-## {% include icon.html icon="fa-solid fa-newspaper" %}Lab latest news
+<!-- ## {% include icon.html icon="fa-solid fa-newspaper" %}Lab latest news
 
   {% assign sorted_news = site.data.news | sort: "date" | reverse %}
     {% for post in sorted_news limit:3 %}
@@ -103,4 +103,4 @@ We are currently recruiting to build our team. We are looking for people at all 
 
 %}
 
-{% endcapture %}
+{% endcapture %} -->
