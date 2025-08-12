@@ -17,7 +17,7 @@ We are also happy to discuss the possibility of supporting postdoctoral candidat
 
 ## PhD Students:
 
-For informal equiries, please [email Joaquina](/contact) with your CV, explaining your academic background and research interests.
+For informal enquiries, please [email Joaquina](/contact) with your CV, explaining your academic background and research interests.
 
 The LMCB host PhD students from a range of programs: [Study at the LMCB](https://www.ucl.ac.uk/lifesciences-faculty/laboratory-molecular-cell-biology/education-and-training/study-lmcb/phd-programmes)
 
