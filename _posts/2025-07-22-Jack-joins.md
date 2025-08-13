@@ -1,5 +1,5 @@
 ---
-title: Our latest paper is online!
+title: Jack Williams joins the lab!
 author: jack-williams
 tags: 
 - celebrations
