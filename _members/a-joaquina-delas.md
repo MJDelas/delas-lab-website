@@ -6,7 +6,6 @@ aliases:
   - M. Joaquina Delas
   - M. J. Delas
 links:
-  home-page: https://mjdelas.github.io/
   orcid: 0000-0001-9727-9068
 ---
 
