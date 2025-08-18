@@ -1,5 +1,18 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1101/2025.08.11.669575
+  title: Reconstructing Waddington's Landscape from Data
+  authors:
+  - Dillon J. Cislo
+  - "M Joaquina Del\xE1s"
+  - James Briscoe
+  - Eric D. Siggia
+  publisher: Cold Spring Harbor Laboratory
+  date: '2025-08-13'
+  link: https://doi.org/g9xb4z
+  orcid: 0000-0001-9727-9068
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.devcel.2025.06.029
   title: The cis-regulatory logic integrating spatial and temporal patterning in the
     vertebrate neural tube
