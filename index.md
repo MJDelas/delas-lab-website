@@ -7,7 +7,7 @@ Our lab is interested in understanding how cis-regulatory elements control cell 
 
 {%
   include figure.html
-  image="images/photo_lab.jpeg"
+  image="images/photo_lab2025.jpg"
   width="75%"
 %}
 
