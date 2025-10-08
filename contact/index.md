@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-You can find us at the [Laboratory for Molecular Cell Biology (LMCB)](https://www.ucl.ac.uk/lmcb/lmcb-ucl) at [University College](https://www.ucl.ac.uk/)
+You can find us at the [Laboratory for Molecular Cell Biology (LMCB)](https://www.ucl.ac.uk/life-sciences/lmcb) at [University College](https://www.ucl.ac.uk/)
 
 {%
   include button.html

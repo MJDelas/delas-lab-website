@@ -23,7 +23,7 @@ The LMCB host PhD students from a range of programs: [Study at the LMCB](https:/
 
 Our lab is recruiting through: 
 - [UCL Research Excellence Scholarship](https://www.ucl.ac.uk/scholarships/research-excellence-scholarship)
-- [LMCB PhD programme](https://www.ucl.ac.uk/lifesciences-faculty/laboratory-molecular-cell-biology/education-and-training/study-lmcb/phd-programmes/molecular-cell)
+- [LMCB PhD programme](https://www.ucl.ac.uk/life-sciences/lmcb/phd-programmes/molecular-cell-biology-phd-programme)
 - [UCL Birkbeck MRC DTP](https://www.uclbbk-mrcdtp.ac.uk/)
 - [BBSRC LiDO](https://www.lido-dtp.ac.uk/)
 - [UCL EPSRC Landscape Award](https://www.ucl.ac.uk/epsrc-doctoral-training/prospective-students/apply-ucl-epsrc-landscape-award-uela-studentship)

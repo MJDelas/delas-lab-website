@@ -13,7 +13,7 @@ Our lab is interested in understanding how cis-regulatory elements control cell 
 
 We do this by combining stem-cell derived and in vivo models. By using state-of-the-art genomics, proteomics and microscopy approaches, we aim at understanding gene regulatory control by non-coding DNA elements at a molecular level during developmental cell fate decisions.
 
-We are located at the [LMCB, UCL](https://www.ucl.ac.uk/lifesciences-faculty/laboratory-molecular-cell-biology/research/research-groups/delas-lab). We are currently building out team to get in touch if you would like to [**join us!**](/recruitment)
+We are located at the [LMCB, UCL](https://www.ucl.ac.uk/life-sciences/lmcb/research-teams/delas-lab). We are currently building out team to get in touch if you would like to [**join us!**](/recruitment)
 
 
 {% include section.html %}
