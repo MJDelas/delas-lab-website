@@ -1,3 +1,21 @@
+- id: doi:10.1101/2025.05.28.656648
+  image: images/fig_Marine_website_diagram.png
+
+- id: doi:10.1101/2025.08.11.669575
+  publisher: Pre-print on biorxiv
+
+- id: doi:10.1016/j.devcel.2025.06.029
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S1534580725004071-fx1.jpg
+
+- id: doi:10.1101/2025.05.28.656648
+  publisher: Pre-print on biorxiv
+
+- id: doi:10.1101/2025.03.07.642002
+  publisher: Pre-print on biorxiv
+
+- id: doi:10.1101/2025.03.07.642002
+  image: images/paper-picture-jake.png
+
 - id: doi:10.1101/2024.04.17.589864
   publisher: Pre-print on biorxiv
 

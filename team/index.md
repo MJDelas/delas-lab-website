@@ -7,16 +7,8 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-We are currently recruiting at multiple levels as part of our generous funding from [Wellcome](https://wellcome.org/grant-funding/schemes/career-development-awards). 
+Meet our team:
 
-{%
-  include button.html
-  link="recruitment"
-  text="Reach out"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
 
 {% include section.html %}
 
@@ -29,7 +21,7 @@ Do you want to hear more?
 
 {% include section.html %}
 
-We are currently **recruiting**. Please [reach out](/recruitment) if interested! 
+Please [reach out](/recruitment) if you are interested in joining. We are happy to support Early Career/postdoc fellowships. 
 
 {% capture content %}
 
