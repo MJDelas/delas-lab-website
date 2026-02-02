@@ -7,7 +7,7 @@ pi:
   description: Principal Investigator
 
 postdoc:
-  icon: fa-solid fa-code
+  icon: fa-solid fa-glasses
   description: Postdoctoral Researcher
 
 phd:
@@ -21,6 +21,10 @@ undergrad:
 ra:
   icon: fa-solid fa-dna
   description: Research Assistant
+
+programmer:
+  icon: fa-solid fa-code
+  description: Programmer
 
 mascot:
   icon: fa-solid fa-dog
