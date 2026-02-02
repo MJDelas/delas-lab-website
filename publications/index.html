@@ -37,6 +37,10 @@
 
 
 
+
+
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Publications | Delas Lab</title>
@@ -49,13 +53,13 @@
 <meta property="og:title" content="Publications">
 <meta property="og:site_title" content="Delas Lab">
 <meta property="og:description" content="at University College London. Decoding cis regulatory control during development.">
-<meta property="og:url" content="">
+<meta property="og:url" content="http://delaslab.com">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="Publications">
 <meta property="twitter:description" content="at University College London. Decoding cis regulatory control during development.">
-<meta property="twitter:url" content="">
+<meta property="twitter:url" content="http://delaslab.com">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.jpg">
 
@@ -76,7 +80,7 @@
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
     },
-    "url": ""
+    "url": "http://delaslab.com"
   }
 </script>
 
@@ -90,9 +94,9 @@
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -156,6 +160,10 @@
 
   
     <link href="/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/details.css" rel="stylesheet">
   
 
   
@@ -330,6 +338,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -352,6 +362,8 @@
   <script src="/_scripts/search.js"></script>
 
   <script src="/_scripts/site-search.js"></script>
+
+  <script src="/_scripts/table-wrap.js"></script>
 
   <script src="/_scripts/tooltip.js"></script>
 
@@ -418,12 +430,12 @@
       </span>
     
     
-      <span class="title" data-tooltip="Home">
+      <span class="title-text" data-tooltip="Home">
         
-          <span>Delas Lab</span>
+          <span class="title">Delas Lab</span>
         
         
-          <span>at University College London</span>
+          <span class="subtitle">at University College London</span>
         
       </span>
     
@@ -437,6 +449,12 @@
       
         <a href="/research/" data-tooltip="Learn about our research">
           Research
+        </a>
+      
+    
+      
+        <a href="/projects/" data-tooltip="Software, datasets, and more">
+          Projects
         </a>
       
     
@@ -455,6 +473,12 @@
       
         <a href="/recruitment/" data-tooltip="Join our team">
           Join us!
+        </a>
+      
+    
+      
+        <a href="/blog/" data-tooltip="Musings and miscellany">
+          Blog
         </a>
       
     
@@ -484,11 +508,8 @@
   modify main content of page:
   - add section breaks
   - attach section properties
-  - wrap each table in div to allow for scrolling
   - filter out blank sections
 -->
-
-
 
 
 
@@ -512,232 +533,250 @@
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 id="highlighted">Highlighted</h2>
 
-<div class="citation">
-  
-    <a href="https://doi.org/g87vp8" class="citation-image" aria-label="Predictable Engineering of Signal-Dependent Cis-Regulatory Elements">
-      <img src="/images/paper-picture-jake.png" alt="Predictable Engineering of Signal-Dependent Cis-Regulatory Elements" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/g87vp8" class="citation-image" aria-label="Predictable Engineering of Signal-Dependent Cis-Regulatory Elements">
+        <img src="/images/paper-picture-jake.png" alt="Predictable Engineering of Signal-Dependent Cis-Regulatory Elements" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/g87vp8" class="citation-title">
-      Predictable Engineering of Signal-Dependent Cis-Regulatory Elements
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" data-tooltip="Jake Cornwall-Scoones, Dirk Benzinger, Tianji Yu, Alberto Pezzotta, Andreas Sagner, Lina Gerontogianni, Shaun Bernadet, Elizabeth Finnie, Giulia L. M. Boezio, Hannah T. Stuart, Manuela Melchionda, Oliver C. K. Inge, Bianca Dumitrascu, James Briscoe, M. Joaquina Delás " tabindex="0">
-      Jake Cornwall-Scoones, Dirk Benzinger, Tianji Yu, Alberto Pezzotta, Andreas Sagner, ..., Manuela Melchionda, Oliver C. K. Inge, Bianca Dumitrascu, James Briscoe, M. Joaquina Delás
+      <a href="https://doi.org/g87vp8" class="citation-title">
+        Predictable Engineering of Signal-Dependent Cis-Regulatory Elements
+      </a>
+
+      <div class="citation-authors" data-tooltip="Jake Cornwall-Scoones, Dirk Benzinger, Tianji Yu, Alberto Pezzotta, Andreas Sagner, Lina Gerontogianni, Shaun Bernadet, Elizabeth Finnie, Giulia L. M. Boezio, Hannah T. Stuart, Manuela Melchionda, Oliver C. K. Inge, Bianca Dumitrascu, James Briscoe, M. Joaquina Delás" tabindex="0">
+        Jake Cornwall-Scoones, Dirk Benzinger, Tianji Yu, Alberto Pezzotta, Andreas Sagner, …, Manuela Melchionda, Oliver C. K. Inge, Bianca Dumitrascu, James Briscoe, M. Joaquina Delás
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Pre-print on biorxiv</span>
+         · 
+        <span class="citation-date">07 Mar 2025</span>
+         · 
+        <span class="citation-id">doi:10.1101/2025.03.07.642002</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Pre-print on biorxiv
-        ·  
-      07 Mar 2025
-        ·  
-      doi:10.1101/2025.03.07.642002
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/g9vv4c" class="citation-image" aria-label="The cis-regulatory logic integrating spatial and temporal patterning in the vertebrate neural tube">
-      <img src="https://ars.els-cdn.com/content/image/1-s2.0-S1534580725004071-fx1.jpg" alt="The cis-regulatory logic integrating spatial and temporal patterning in the vertebrate neural tube" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/g9vv4c" class="citation-image" aria-label="The cis-regulatory logic integrating spatial and temporal patterning in the vertebrate neural tube">
+        <img src="https://ars.els-cdn.com/content/image/1-s2.0-S1534580725004071-fx1.jpg" alt="The cis-regulatory logic integrating spatial and temporal patterning in the vertebrate neural tube" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/g9vv4c" class="citation-title">
-      The cis-regulatory logic integrating spatial and temporal patterning in the vertebrate neural tube
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" data-tooltip="Isabel Zhang, Giulia L.M. Boezio, Jake Cornwall-Scoones, Thomas Frith, Elizabeth Finnie, Junyi Luo, Ming Jiang, Michael Howell, Robin Lovell-Badge, Andreas Sagner, James Briscoe, M. Joaquina Delás " tabindex="0">
-      Isabel Zhang, Giulia L.M. Boezio, Jake Cornwall-Scoones, Thomas Frith, Elizabeth Finnie, ..., Michael Howell, Robin Lovell-Badge, Andreas Sagner, James Briscoe, M. Joaquina Delás
+      <a href="https://doi.org/g9vv4c" class="citation-title">
+        The cis-regulatory logic integrating spatial and temporal patterning in the vertebrate neural tube
+      </a>
+
+      <div class="citation-authors" data-tooltip="Isabel Zhang, Giulia L.M. Boezio, Jake Cornwall-Scoones, Thomas Frith, Elizabeth Finnie, Junyi Luo, Ming Jiang, Michael Howell, Robin Lovell-Badge, Andreas Sagner, James Briscoe, M. Joaquina Delás" tabindex="0">
+        Isabel Zhang, Giulia L.M. Boezio, Jake Cornwall-Scoones, Thomas Frith, Elizabeth Finnie, …, Michael Howell, Robin Lovell-Badge, Andreas Sagner, James Briscoe, M. Joaquina Delás
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Developmental Cell</span>
+         · 
+        <span class="citation-date">01 Nov 2025</span>
+         · 
+        <span class="citation-id">doi:10.1016/j.devcel.2025.06.029</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Developmental Cell
-        ·  
-      01 Nov 2025
-        ·  
-      doi:10.1016/j.devcel.2025.06.029
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gs4jpk" class="citation-image" aria-label="Developmental cell fate choice in neural tube progenitors employs two distinct cis-regulatory strategies">
-      <img src="https://www.cell.com/cms/attachment/fd30bdc8-2e3c-4854-8c82-956355b50d04/fx1.jpg" alt="Developmental cell fate choice in neural tube progenitors employs two distinct cis-regulatory strategies" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gs4jpk" class="citation-image" aria-label="Developmental cell fate choice in neural tube progenitors employs two distinct cis-regulatory strategies">
+        <img src="https://www.cell.com/cms/attachment/fd30bdc8-2e3c-4854-8c82-956355b50d04/fx1.jpg" alt="Developmental cell fate choice in neural tube progenitors employs two distinct cis-regulatory strategies" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gs4jpk" class="citation-title">
-      Developmental cell fate choice in neural tube progenitors employs two distinct cis-regulatory strategies
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      M. Joaquina Delás, Christos M. Kalaitzis, Tamara Fawzi, Madeleine Demuth, Isabel Zhang, Hannah T. Stuart, Elena Costantini, Kenzo Ivanovitch, Elly M. Tanaka, James Briscoe
+      <a href="https://doi.org/gs4jpk" class="citation-title">
+        Developmental cell fate choice in neural tube progenitors employs two distinct cis-regulatory strategies
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        M. Joaquina Delás, Christos M. Kalaitzis, Tamara Fawzi, Madeleine Demuth, Isabel Zhang, Hannah T. Stuart, Elena Costantini, Kenzo Ivanovitch, Elly M. Tanaka, James Briscoe
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Developmental Cell</span>
+         · 
+        <span class="citation-date">01 Jan 2023</span>
+         · 
+        <span class="citation-id">doi:10.1016/j.devcel.2022.11.016</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Developmental Cell
-        ·  
-      01 Jan 2023
-        ·  
-      doi:10.1016/j.devcel.2022.11.016
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/g9mwf7" class="citation-image" aria-label="Dynamic Landscape Analysis of Cell Fate Decisions: Predictive Models of Neural Development From Single-Cell Data">
-      <img src="/images/fig_Marine_website_diagram.png" alt="Dynamic Landscape Analysis of Cell Fate Decisions: Predictive Models of Neural Development From Single-Cell Data" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/g9mwf7" class="citation-image" aria-label="Dynamic Landscape Analysis of Cell Fate Decisions: Predictive Models of Neural Development From Single-Cell Data">
+        <img src="/images/fig_Marine_website_diagram.png" alt="Dynamic Landscape Analysis of Cell Fate Decisions: Predictive Models of Neural Development From Single-Cell Data" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/g9mwf7" class="citation-title">
-      Dynamic Landscape Analysis of Cell Fate Decisions: Predictive Models of Neural Development From Single-Cell Data
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Marine Fontaine, M. Joaquina Delas, Meritxell Saez, Rory J. Maizels, Elizabeth Finnie, James Briscoe, David A. Rand
+      <a href="https://doi.org/g9mwf7" class="citation-title">
+        Dynamic Landscape Analysis of Cell Fate Decisions: Predictive Models of Neural Development From Single-Cell Data
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Marine Fontaine, M. Joaquina Delas, Meritxell Saez, Rory J. Maizels, Elizabeth Finnie, James Briscoe, David A. Rand
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Pre-print on biorxiv</span>
+         · 
+        <span class="citation-date">28 May 2025</span>
+         · 
+        <span class="citation-id">doi:10.1101/2025.05.28.656648</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Pre-print on biorxiv
-        ·  
-      28 May 2025
-        ·  
-      doi:10.1101/2025.05.28.656648
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gs4jpm" class="citation-image" aria-label="Sox2 levels regulate the chromatin occupancy of WNT mediators in epiblast progenitors responsible for vertebrate body formation">
-      <img src="/images/Fig_BCat_Sox2_model.png" alt="Sox2 levels regulate the chromatin occupancy of WNT mediators in epiblast progenitors responsible for vertebrate body formation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gs4jpm" class="citation-image" aria-label="Sox2 levels regulate the chromatin occupancy of WNT mediators in epiblast progenitors responsible for vertebrate body formation">
+        <img src="/images/Fig_BCat_Sox2_model.png" alt="Sox2 levels regulate the chromatin occupancy of WNT mediators in epiblast progenitors responsible for vertebrate body formation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gs4jpm" class="citation-title">
-      Sox2 levels regulate the chromatin occupancy of WNT mediators in epiblast progenitors responsible for vertebrate body formation
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Robert Blassberg, Harshil Patel, Thomas Watson, Mina Gouti, Vicki Metzis, M. Joaquina Delás, James Briscoe
+      <a href="https://doi.org/gs4jpm" class="citation-title">
+        Sox2 levels regulate the chromatin occupancy of WNT mediators in epiblast progenitors responsible for vertebrate body formation
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Robert Blassberg, Harshil Patel, Thomas Watson, Mina Gouti, Vicki Metzis, M. Joaquina Delás, James Briscoe
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Nature Cell Biology</span>
+         · 
+        <span class="citation-date">01 May 2022</span>
+         · 
+        <span class="citation-id">doi:10.1038/s41556-022-00910-2</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Nature Cell Biology
-        ·  
-      01 May 2022
-        ·  
-      doi:10.1038/s41556-022-00910-2
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gs4jpq" class="citation-image" aria-label="Repressive interactions in gene regulatory networks: When you have no other choice">
-      <img src="/images/Fig_Delas_CTDB.png" alt="Repressive interactions in gene regulatory networks: When you have no other choice" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gs4jpq" class="citation-image" aria-label="Repressive interactions in gene regulatory networks: When you have no other choice">
+        <img src="/images/Fig_Delas_CTDB.png" alt="Repressive interactions in gene regulatory networks: When you have no other choice" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gs4jpq" class="citation-title">
-      Repressive interactions in gene regulatory networks: When you have no other choice
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      [no author info]
+      <a href="https://doi.org/gs4jpq" class="citation-title">
+        Repressive interactions in gene regulatory networks: When you have no other choice
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Current Topics in Developmental Biology</span>
+         · 
+        <span class="citation-date">01 Jan 2020</span>
+         · 
+        <span class="citation-id">doi:10.1016/bs.ctdb.2020.03.003</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Current Topics in Developmental Biology
-        ·  
-      01 Jan 2020
-        ·  
-      doi:10.1016/bs.ctdb.2020.03.003
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
   </section>
@@ -748,9 +787,9 @@
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 id="all">All</h2>
@@ -766,692 +805,744 @@
 
 <h3 id="2025">2025</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/g9vv4c" class="citation-image" aria-label="The cis-regulatory logic integrating spatial and temporal patterning in the vertebrate neural tube">
-      <img src="https://ars.els-cdn.com/content/image/1-s2.0-S1534580725004071-fx1.jpg" alt="The cis-regulatory logic integrating spatial and temporal patterning in the vertebrate neural tube" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/g9vv4c" class="citation-image" aria-label="The cis-regulatory logic integrating spatial and temporal patterning in the vertebrate neural tube">
+        <img src="https://ars.els-cdn.com/content/image/1-s2.0-S1534580725004071-fx1.jpg" alt="The cis-regulatory logic integrating spatial and temporal patterning in the vertebrate neural tube" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/g9vv4c" class="citation-title">
-      The cis-regulatory logic integrating spatial and temporal patterning in the vertebrate neural tube
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" data-tooltip="Isabel Zhang, Giulia L.M. Boezio, Jake Cornwall-Scoones, Thomas Frith, Elizabeth Finnie, Junyi Luo, Ming Jiang, Michael Howell, Robin Lovell-Badge, Andreas Sagner, James Briscoe, M. Joaquina Delás " tabindex="0">
-      Isabel Zhang, Giulia L.M. Boezio, Jake Cornwall-Scoones, Thomas Frith, Elizabeth Finnie, ..., Michael Howell, Robin Lovell-Badge, Andreas Sagner, James Briscoe, M. Joaquina Delás
+      <a href="https://doi.org/g9vv4c" class="citation-title">
+        The cis-regulatory logic integrating spatial and temporal patterning in the vertebrate neural tube
+      </a>
+
+      <div class="citation-authors" data-tooltip="Isabel Zhang, Giulia L.M. Boezio, Jake Cornwall-Scoones, Thomas Frith, Elizabeth Finnie, Junyi Luo, Ming Jiang, Michael Howell, Robin Lovell-Badge, Andreas Sagner, James Briscoe, M. Joaquina Delás" tabindex="0">
+        Isabel Zhang, Giulia L.M. Boezio, Jake Cornwall-Scoones, Thomas Frith, Elizabeth Finnie, …, Michael Howell, Robin Lovell-Badge, Andreas Sagner, James Briscoe, M. Joaquina Delás
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Developmental Cell</span>
+         · 
+        <span class="citation-date">01 Nov 2025</span>
+         · 
+        <span class="citation-id">doi:10.1016/j.devcel.2025.06.029</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Developmental Cell
-        ·  
-      01 Nov 2025
-        ·  
-      doi:10.1016/j.devcel.2025.06.029
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/g9xb4z" class="citation-image" aria-label="Reconstructing Waddington's Landscape from Data">
-      <img src="" alt="Reconstructing Waddington's Landscape from Data" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/g9xb4z" class="citation-image" aria-label="Reconstructing Waddington s Landscape from Data">
+        <img src="" alt="Reconstructing Waddington s Landscape from Data" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/g9xb4z" class="citation-title">
-      Reconstructing Waddington's Landscape from Data
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Dillon J. Cislo, M Joaquina Delás, James Briscoe, Eric D. Siggia
+      <a href="https://doi.org/g9xb4z" class="citation-title">
+        Reconstructing Waddington's Landscape from Data
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Dillon J. Cislo, M Joaquina Delás, James Briscoe, Eric D. Siggia
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Pre-print on biorxiv</span>
+         · 
+        <span class="citation-date">13 Aug 2025</span>
+         · 
+        <span class="citation-id">doi:10.1101/2025.08.11.669575</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Pre-print on biorxiv
-        ·  
-      13 Aug 2025
-        ·  
-      doi:10.1101/2025.08.11.669575
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/g9mwf7" class="citation-image" aria-label="Dynamic Landscape Analysis of Cell Fate Decisions: Predictive Models of Neural Development From Single-Cell Data">
-      <img src="/images/fig_Marine_website_diagram.png" alt="Dynamic Landscape Analysis of Cell Fate Decisions: Predictive Models of Neural Development From Single-Cell Data" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/g9mwf7" class="citation-image" aria-label="Dynamic Landscape Analysis of Cell Fate Decisions: Predictive Models of Neural Development From Single-Cell Data">
+        <img src="/images/fig_Marine_website_diagram.png" alt="Dynamic Landscape Analysis of Cell Fate Decisions: Predictive Models of Neural Development From Single-Cell Data" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/g9mwf7" class="citation-title">
-      Dynamic Landscape Analysis of Cell Fate Decisions: Predictive Models of Neural Development From Single-Cell Data
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Marine Fontaine, M. Joaquina Delas, Meritxell Saez, Rory J. Maizels, Elizabeth Finnie, James Briscoe, David A. Rand
+      <a href="https://doi.org/g9mwf7" class="citation-title">
+        Dynamic Landscape Analysis of Cell Fate Decisions: Predictive Models of Neural Development From Single-Cell Data
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Marine Fontaine, M. Joaquina Delas, Meritxell Saez, Rory J. Maizels, Elizabeth Finnie, James Briscoe, David A. Rand
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Pre-print on biorxiv</span>
+         · 
+        <span class="citation-date">28 May 2025</span>
+         · 
+        <span class="citation-id">doi:10.1101/2025.05.28.656648</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Pre-print on biorxiv
-        ·  
-      28 May 2025
-        ·  
-      doi:10.1101/2025.05.28.656648
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/g87vp8" class="citation-image" aria-label="Predictable Engineering of Signal-Dependent Cis-Regulatory Elements">
-      <img src="/images/paper-picture-jake.png" alt="Predictable Engineering of Signal-Dependent Cis-Regulatory Elements" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/g87vp8" class="citation-image" aria-label="Predictable Engineering of Signal-Dependent Cis-Regulatory Elements">
+        <img src="/images/paper-picture-jake.png" alt="Predictable Engineering of Signal-Dependent Cis-Regulatory Elements" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/g87vp8" class="citation-title">
-      Predictable Engineering of Signal-Dependent Cis-Regulatory Elements
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" data-tooltip="Jake Cornwall-Scoones, Dirk Benzinger, Tianji Yu, Alberto Pezzotta, Andreas Sagner, Lina Gerontogianni, Shaun Bernadet, Elizabeth Finnie, Giulia L. M. Boezio, Hannah T. Stuart, Manuela Melchionda, Oliver C. K. Inge, Bianca Dumitrascu, James Briscoe, M. Joaquina Delás " tabindex="0">
-      Jake Cornwall-Scoones, Dirk Benzinger, Tianji Yu, Alberto Pezzotta, Andreas Sagner, ..., Manuela Melchionda, Oliver C. K. Inge, Bianca Dumitrascu, James Briscoe, M. Joaquina Delás
+      <a href="https://doi.org/g87vp8" class="citation-title">
+        Predictable Engineering of Signal-Dependent Cis-Regulatory Elements
+      </a>
+
+      <div class="citation-authors" data-tooltip="Jake Cornwall-Scoones, Dirk Benzinger, Tianji Yu, Alberto Pezzotta, Andreas Sagner, Lina Gerontogianni, Shaun Bernadet, Elizabeth Finnie, Giulia L. M. Boezio, Hannah T. Stuart, Manuela Melchionda, Oliver C. K. Inge, Bianca Dumitrascu, James Briscoe, M. Joaquina Delás" tabindex="0">
+        Jake Cornwall-Scoones, Dirk Benzinger, Tianji Yu, Alberto Pezzotta, Andreas Sagner, …, Manuela Melchionda, Oliver C. K. Inge, Bianca Dumitrascu, James Briscoe, M. Joaquina Delás
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Pre-print on biorxiv</span>
+         · 
+        <span class="citation-date">07 Mar 2025</span>
+         · 
+        <span class="citation-id">doi:10.1101/2025.03.07.642002</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Pre-print on biorxiv
-        ·  
-      07 Mar 2025
-        ·  
-      doi:10.1101/2025.03.07.642002
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2024">2024</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gtrd75" class="citation-image" aria-label="The cis-regulatory logic integrating spatial and temporal patterning in the vertebrate neural tube">
-      <img src="/images/model_tempo_space_square.png" alt="The cis-regulatory logic integrating spatial and temporal patterning in the vertebrate neural tube" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gtrd75" class="citation-image" aria-label="The cis-regulatory logic integrating spatial and temporal patterning in the vertebrate neural tube">
+        <img src="/images/model_tempo_space_square.png" alt="The cis-regulatory logic integrating spatial and temporal patterning in the vertebrate neural tube" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gtrd75" class="citation-title">
-      The cis-regulatory logic integrating spatial and temporal patterning in the vertebrate neural tube
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Isabel Zhang, Giulia LM Boezio, Jake Cornwall-Scoones, Thomas Frith, Ming Jiang, Michael Howell, Robin Lovell-Badge, Andreas Sagner, James Briscoe, M Joaquina Delás
+      <a href="https://doi.org/gtrd75" class="citation-title">
+        The cis-regulatory logic integrating spatial and temporal patterning in the vertebrate neural tube
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Isabel Zhang, Giulia LM Boezio, Jake Cornwall-Scoones, Thomas Frith, Ming Jiang, Michael Howell, Robin Lovell-Badge, Andreas Sagner, James Briscoe, M Joaquina Delás
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Pre-print on biorxiv</span>
+         · 
+        <span class="citation-date">17 Apr 2024</span>
+         · 
+        <span class="citation-id">doi:10.1101/2024.04.17.589864</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Pre-print on biorxiv
-        ·  
-      17 Apr 2024
-        ·  
-      doi:10.1101/2024.04.17.589864
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2023">2023</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gs4jpk" class="citation-image" aria-label="Developmental cell fate choice in neural tube progenitors employs two distinct cis-regulatory strategies">
-      <img src="https://www.cell.com/cms/attachment/fd30bdc8-2e3c-4854-8c82-956355b50d04/fx1.jpg" alt="Developmental cell fate choice in neural tube progenitors employs two distinct cis-regulatory strategies" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gs4jpk" class="citation-image" aria-label="Developmental cell fate choice in neural tube progenitors employs two distinct cis-regulatory strategies">
+        <img src="https://www.cell.com/cms/attachment/fd30bdc8-2e3c-4854-8c82-956355b50d04/fx1.jpg" alt="Developmental cell fate choice in neural tube progenitors employs two distinct cis-regulatory strategies" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gs4jpk" class="citation-title">
-      Developmental cell fate choice in neural tube progenitors employs two distinct cis-regulatory strategies
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      M. Joaquina Delás, Christos M. Kalaitzis, Tamara Fawzi, Madeleine Demuth, Isabel Zhang, Hannah T. Stuart, Elena Costantini, Kenzo Ivanovitch, Elly M. Tanaka, James Briscoe
+      <a href="https://doi.org/gs4jpk" class="citation-title">
+        Developmental cell fate choice in neural tube progenitors employs two distinct cis-regulatory strategies
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        M. Joaquina Delás, Christos M. Kalaitzis, Tamara Fawzi, Madeleine Demuth, Isabel Zhang, Hannah T. Stuart, Elena Costantini, Kenzo Ivanovitch, Elly M. Tanaka, James Briscoe
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Developmental Cell</span>
+         · 
+        <span class="citation-date">01 Jan 2023</span>
+         · 
+        <span class="citation-id">doi:10.1016/j.devcel.2022.11.016</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Developmental Cell
-        ·  
-      01 Jan 2023
-        ·  
-      doi:10.1016/j.devcel.2022.11.016
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2022">2022</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsz8jn" class="citation-image" aria-label="Developmental cell fate choice employs two distinct cis regulatory strategies">
-      <img src="" alt="Developmental cell fate choice employs two distinct cis regulatory strategies" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsz8jn" class="citation-image" aria-label="Developmental cell fate choice employs two distinct cis regulatory strategies">
+        <img src="" alt="Developmental cell fate choice employs two distinct cis regulatory strategies" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsz8jn" class="citation-title">
-      Developmental cell fate choice employs two distinct cis regulatory strategies
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      M. Joaquina Delás, Christos M Kalaitzis, Tamara Fawzi, Madeleine Demuth, Isabel Zhang, Hannah T Stuart, Elena Costantini, Kenzo Ivanovitch, Elly M Tanaka, James Briscoe
+      <a href="https://doi.org/gsz8jn" class="citation-title">
+        Developmental cell fate choice employs two distinct cis regulatory strategies
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        M. Joaquina Delás, Christos M Kalaitzis, Tamara Fawzi, Madeleine Demuth, Isabel Zhang, Hannah T Stuart, Elena Costantini, Kenzo Ivanovitch, Elly M Tanaka, James Briscoe
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Pre-print on biorxiv</span>
+         · 
+        <span class="citation-date">06 Jun 2022</span>
+         · 
+        <span class="citation-id">doi:10.1101/2022.06.06.494792</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Pre-print on biorxiv
-        ·  
-      06 Jun 2022
-        ·  
-      doi:10.1101/2022.06.06.494792
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gs4jpm" class="citation-image" aria-label="Sox2 levels regulate the chromatin occupancy of WNT mediators in epiblast progenitors responsible for vertebrate body formation">
-      <img src="/images/Fig_BCat_Sox2_model.png" alt="Sox2 levels regulate the chromatin occupancy of WNT mediators in epiblast progenitors responsible for vertebrate body formation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gs4jpm" class="citation-image" aria-label="Sox2 levels regulate the chromatin occupancy of WNT mediators in epiblast progenitors responsible for vertebrate body formation">
+        <img src="/images/Fig_BCat_Sox2_model.png" alt="Sox2 levels regulate the chromatin occupancy of WNT mediators in epiblast progenitors responsible for vertebrate body formation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gs4jpm" class="citation-title">
-      Sox2 levels regulate the chromatin occupancy of WNT mediators in epiblast progenitors responsible for vertebrate body formation
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Robert Blassberg, Harshil Patel, Thomas Watson, Mina Gouti, Vicki Metzis, M. Joaquina Delás, James Briscoe
+      <a href="https://doi.org/gs4jpm" class="citation-title">
+        Sox2 levels regulate the chromatin occupancy of WNT mediators in epiblast progenitors responsible for vertebrate body formation
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Robert Blassberg, Harshil Patel, Thomas Watson, Mina Gouti, Vicki Metzis, M. Joaquina Delás, James Briscoe
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Nature Cell Biology</span>
+         · 
+        <span class="citation-date">01 May 2022</span>
+         · 
+        <span class="citation-id">doi:10.1038/s41556-022-00910-2</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Nature Cell Biology
-        ·  
-      01 May 2022
-        ·  
-      doi:10.1038/s41556-022-00910-2
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gs4jpn" class="citation-image" aria-label="Cell-intrinsic Aryl Hydrocarbon Receptor signalling is required for the resolution of injury-induced colonic stem cells">
-      <img src="" alt="Cell-intrinsic Aryl Hydrocarbon Receptor signalling is required for the resolution of injury-induced colonic stem cells" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gs4jpn" class="citation-image" aria-label="Cell-intrinsic Aryl Hydrocarbon Receptor signalling is required for the resolution of injury-induced colonic stem cells">
+        <img src="" alt="Cell-intrinsic Aryl Hydrocarbon Receptor signalling is required for the resolution of injury-induced colonic stem cells" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gs4jpn" class="citation-title">
-      Cell-intrinsic Aryl Hydrocarbon Receptor signalling is required for the resolution of injury-induced colonic stem cells
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" data-tooltip="Kathleen Shah, Muralidhara Rao Maradana, M. Joaquina Delàs, Amina Metidji, Frederike Graelmann, Miriam Llorian, Probir Chakravarty, Ying Li, Mauro Tolaini, Michael Shapiro, Gavin Kelly, Chris Cheshire, Deendyal Bhurta, Sandip B. Bharate, Brigitta Stockinger " tabindex="0">
-      Kathleen Shah, Muralidhara Rao Maradana, M. Joaquina Delàs, Amina Metidji, Frederike Graelmann, ..., Gavin Kelly, Chris Cheshire, Deendyal Bhurta, Sandip B. Bharate, Brigitta Stockinger
+      <a href="https://doi.org/gs4jpn" class="citation-title">
+        Cell-intrinsic Aryl Hydrocarbon Receptor signalling is required for the resolution of injury-induced colonic stem cells
+      </a>
+
+      <div class="citation-authors" data-tooltip="Kathleen Shah, Muralidhara Rao Maradana, M. Joaquina Delàs, Amina Metidji, Frederike Graelmann, Miriam Llorian, Probir Chakravarty, Ying Li, Mauro Tolaini, Michael Shapiro, Gavin Kelly, Chris Cheshire, Deendyal Bhurta, Sandip B. Bharate, Brigitta Stockinger" tabindex="0">
+        Kathleen Shah, Muralidhara Rao Maradana, M. Joaquina Delàs, Amina Metidji, Frederike Graelmann, …, Gavin Kelly, Chris Cheshire, Deendyal Bhurta, Sandip B. Bharate, Brigitta Stockinger
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Nature Communications</span>
+         · 
+        <span class="citation-date">05 Apr 2022</span>
+         · 
+        <span class="citation-id">doi:10.1038/s41467-022-29098-7</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Nature Communications
-        ·  
-      05 Apr 2022
-        ·  
-      doi:10.1038/s41467-022-29098-7
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2021">2021</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gs4jpp" class="citation-image" aria-label="Cell-intrinsic Aryl Hydrocarbon Receptor signalling is required for the resolution of injury-induced colonic stem cells">
-      <img src="" alt="Cell-intrinsic Aryl Hydrocarbon Receptor signalling is required for the resolution of injury-induced colonic stem cells" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gs4jpp" class="citation-image" aria-label="Cell-intrinsic Aryl Hydrocarbon Receptor signalling is required for the resolution of injury-induced colonic stem cells">
+        <img src="" alt="Cell-intrinsic Aryl Hydrocarbon Receptor signalling is required for the resolution of injury-induced colonic stem cells" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gs4jpp" class="citation-title">
-      Cell-intrinsic Aryl Hydrocarbon Receptor signalling is required for the resolution of injury-induced colonic stem cells
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" data-tooltip="Kathleen Shah, Muralidhara Rao Maradana, M Joaquina Delas, Amina Metidji, Frederike Graelmann, Miriam Llorian, Probir Chakravarty, Ying Li, Mauro Tolaini, Michael Shapiro, Gavin Kelly, Brigitta Stockinger " tabindex="0">
-      Kathleen Shah, Muralidhara Rao Maradana, M Joaquina Delas, Amina Metidji, Frederike Graelmann, ..., Ying Li, Mauro Tolaini, Michael Shapiro, Gavin Kelly, Brigitta Stockinger
+      <a href="https://doi.org/gs4jpp" class="citation-title">
+        Cell-intrinsic Aryl Hydrocarbon Receptor signalling is required for the resolution of injury-induced colonic stem cells
+      </a>
+
+      <div class="citation-authors" data-tooltip="Kathleen Shah, Muralidhara Rao Maradana, M Joaquina Delas, Amina Metidji, Frederike Graelmann, Miriam Llorian, Probir Chakravarty, Ying Li, Mauro Tolaini, Michael Shapiro, Gavin Kelly, Brigitta Stockinger" tabindex="0">
+        Kathleen Shah, Muralidhara Rao Maradana, M Joaquina Delas, Amina Metidji, Frederike Graelmann, …, Ying Li, Mauro Tolaini, Michael Shapiro, Gavin Kelly, Brigitta Stockinger
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Springer Science and Business Media LLC</span>
+         · 
+        <span class="citation-date">02 Sep 2021</span>
+         · 
+        <span class="citation-id">doi:10.21203/rs.3.rs-827700/v1</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Springer Science and Business Media LLC
-        ·  
-      02 Sep 2021
-        ·  
-      doi:10.21203/rs.3.rs-827700/v1
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2020">2020</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsxbzt" class="citation-image" aria-label="Sox2 levels configure the WNT response of epiblast progenitors responsible for vertebrate body formation">
-      <img src="" alt="Sox2 levels configure the WNT response of epiblast progenitors responsible for vertebrate body formation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsxbzt" class="citation-image" aria-label="Sox2 levels configure the WNT response of epiblast progenitors responsible for vertebrate body formation">
+        <img src="" alt="Sox2 levels configure the WNT response of epiblast progenitors responsible for vertebrate body formation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsxbzt" class="citation-title">
-      Sox2 levels configure the WNT response of epiblast progenitors responsible for vertebrate body formation
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Robert Blassberg, Harshil Patel, Thomas Watson, Mina Gouti, Vicki Metzis, M Joaquina Delás, James Briscoe
+      <a href="https://doi.org/gsxbzt" class="citation-title">
+        Sox2 levels configure the WNT response of epiblast progenitors responsible for vertebrate body formation
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Robert Blassberg, Harshil Patel, Thomas Watson, Mina Gouti, Vicki Metzis, M Joaquina Delás, James Briscoe
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Pre-print on biorxiv</span>
+         · 
+        <span class="citation-date">30 Dec 2020</span>
+         · 
+        <span class="citation-id">doi:10.1101/2020.12.29.424684</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Pre-print on biorxiv
-        ·  
-      30 Dec 2020
-        ·  
-      doi:10.1101/2020.12.29.424684
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gs4jpq" class="citation-image" aria-label="Repressive interactions in gene regulatory networks: When you have no other choice">
-      <img src="/images/Fig_Delas_CTDB.png" alt="Repressive interactions in gene regulatory networks: When you have no other choice" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gs4jpq" class="citation-image" aria-label="Repressive interactions in gene regulatory networks: When you have no other choice">
+        <img src="/images/Fig_Delas_CTDB.png" alt="Repressive interactions in gene regulatory networks: When you have no other choice" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gs4jpq" class="citation-title">
-      Repressive interactions in gene regulatory networks: When you have no other choice
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      [no author info]
+      <a href="https://doi.org/gs4jpq" class="citation-title">
+        Repressive interactions in gene regulatory networks: When you have no other choice
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Current Topics in Developmental Biology</span>
+         · 
+        <span class="citation-date">01 Jan 2020</span>
+         · 
+        <span class="citation-id">doi:10.1016/bs.ctdb.2020.03.003</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Current Topics in Developmental Biology
-        ·  
-      01 Jan 2020
-        ·  
-      doi:10.1016/bs.ctdb.2020.03.003
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2019">2019</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gfzjh5" class="citation-image" aria-label="lncRNA Spehd Regulates Hematopoietic Stem and Progenitor Cells and Is Required for Multilineage Differentiation">
-      <img src="" alt="lncRNA Spehd Regulates Hematopoietic Stem and Progenitor Cells and Is Required for Multilineage Differentiation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gfzjh5" class="citation-image" aria-label="lncRNA Spehd Regulates Hematopoietic Stem and Progenitor Cells and Is Required for Multilineage Differentiation">
+        <img src="" alt="lncRNA Spehd Regulates Hematopoietic Stem and Progenitor Cells and Is Required for Multilineage Differentiation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gfzjh5" class="citation-title">
-      lncRNA Spehd Regulates Hematopoietic Stem and Progenitor Cells and Is Required for Multilineage Differentiation
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      M. Joaquina Delás, Benjamin T. Jackson, Tatjana Kovacevic, Silvia Vangelisti, Ester Munera Maravilla, Sophia A. Wild, Eva Maria Stork, Nicolas Erard, Simon R.V. Knott, Gregory J. Hannon
+      <a href="https://doi.org/gfzjh5" class="citation-title">
+        lncRNA Spehd Regulates Hematopoietic Stem and Progenitor Cells and Is Required for Multilineage Differentiation
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        M. Joaquina Delás, Benjamin T. Jackson, Tatjana Kovacevic, Silvia Vangelisti, Ester Munera Maravilla, Sophia A. Wild, Eva Maria Stork, Nicolas Erard, Simon R.V. Knott, Gregory J. Hannon
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Cell Reports</span>
+         · 
+        <span class="citation-date">01 Apr 2019</span>
+         · 
+        <span class="citation-id">doi:10.1016/j.celrep.2019.03.080</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Cell Reports
-        ·  
-      01 Apr 2019
-        ·  
-      doi:10.1016/j.celrep.2019.03.080
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2017">2017</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gbzxk9" class="citation-image" aria-label="lncRNA requirements for mouse acute myeloid leukemia and normal differentiation">
-      <img src="" alt="lncRNA requirements for mouse acute myeloid leukemia and normal differentiation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gbzxk9" class="citation-image" aria-label="lncRNA requirements for mouse acute myeloid leukemia and normal differentiation">
+        <img src="" alt="lncRNA requirements for mouse acute myeloid leukemia and normal differentiation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gbzxk9" class="citation-title">
-      lncRNA requirements for mouse acute myeloid leukemia and normal differentiation
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" data-tooltip="M Joaquina Delás, Leah R Sabin, Egor Dolzhenko, Simon RV Knott, Ester Munera Maravilla, Benjamin T Jackson, Sophia A Wild, Tatjana Kovacevic, Eva Maria Stork, Meng Zhou, Nicolas Erard, Emily Lee, David R Kelley, Mareike Roth, Inês AM Barbosa, Johannes Zuber, John L Rinn, Andrew D Smith, Gregory J Hannon " tabindex="0">
-      M Joaquina Delás, Leah R Sabin, Egor Dolzhenko, Simon RV Knott, Ester Munera Maravilla, ..., Inês AM Barbosa, Johannes Zuber, John L Rinn, Andrew D Smith, Gregory J Hannon
+      <a href="https://doi.org/gbzxk9" class="citation-title">
+        lncRNA requirements for mouse acute myeloid leukemia and normal differentiation
+      </a>
+
+      <div class="citation-authors" data-tooltip="M Joaquina Delás, Leah R Sabin, Egor Dolzhenko, Simon RV Knott, Ester Munera Maravilla, Benjamin T Jackson, Sophia A Wild, Tatjana Kovacevic, Eva Maria Stork, Meng Zhou, Nicolas Erard, Emily Lee, David R Kelley, Mareike Roth, Inês AM Barbosa, Johannes Zuber, John L Rinn, Andrew D Smith, Gregory J Hannon" tabindex="0">
+        M Joaquina Delás, Leah R Sabin, Egor Dolzhenko, Simon RV Knott, Ester Munera Maravilla, …, Inês AM Barbosa, Johannes Zuber, John L Rinn, Andrew D Smith, Gregory J Hannon
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">eLife</span>
+         · 
+        <span class="citation-date">06 Sep 2017</span>
+         · 
+        <span class="citation-id">doi:10.7554/eLife.25607</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      eLife
-        ·  
-      06 Sep 2017
-        ·  
-      doi:10.7554/eLife.25607
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gj4gf8" class="citation-image" aria-label="lncRNAs in development and disease: from functions to mechanisms">
-      <img src="" alt="lncRNAs in development and disease: from functions to mechanisms" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gj4gf8" class="citation-image" aria-label="lncRNAs in development and disease: from functions to mechanisms">
+        <img src="" alt="lncRNAs in development and disease: from functions to mechanisms" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gj4gf8" class="citation-title">
-      lncRNAs in development and disease: from functions to mechanisms
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      M. Joaquina Delás, Gregory J. Hannon
+      <a href="https://doi.org/gj4gf8" class="citation-title">
+        lncRNAs in development and disease: from functions to mechanisms
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        M. Joaquina Delás, Gregory J. Hannon
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Open Biology</span>
+         · 
+        <span class="citation-date">01 Jul 2017</span>
+         · 
+        <span class="citation-id">doi:10.1098/rsob.170121</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Open Biology
-        ·  
-      01 Jul 2017
-        ·  
-      doi:10.1098/rsob.170121
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2015">2015</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/f7vsx6" class="citation-image" aria-label="Genome and transcriptome of the regeneration-competent flatworm,
-            &lt;i&gt;Macrostomum lignano&lt;/i&gt;">
-      <img src="" alt="Genome and transcriptome of the regeneration-competent flatworm,
-            &lt;i&gt;Macrostomum lignano&lt;/i&gt;" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/f7vsx6" class="citation-image" aria-label="Genome and transcriptome of the regeneration-competent flatworm, i Macrostomum lignano i">
+        <img src="" alt="Genome and transcriptome of the regeneration-competent flatworm, i Macrostomum lignano i" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/f7vsx6" class="citation-title">
-      Genome and transcriptome of the regeneration-competent flatworm,
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/f7vsx6" class="citation-title">
+        Genome and transcriptome of the regeneration-competent flatworm,
             <i>Macrostomum lignano</i>
-    </a>
+      </a>
 
-    <div class="citation-authors" data-tooltip="Kaja Wasik, James Gurtowski, Xin Zhou, Olivia Mendivil Ramos, M. Joaquina Delás, Giorgia Battistoni, Osama El Demerdash, Ilaria Falciatori, Dita B. Vizoso, Andrew D. Smith, Peter Ladurner, Lukas Schärer, W. Richard McCombie, Gregory J. Hannon, Michael Schatz " tabindex="0">
-      Kaja Wasik, James Gurtowski, Xin Zhou, Olivia Mendivil Ramos, M. Joaquina Delás, ..., Peter Ladurner, Lukas Schärer, W. Richard McCombie, Gregory J. Hannon, Michael Schatz
+      <div class="citation-authors" data-tooltip="Kaja Wasik, James Gurtowski, Xin Zhou, Olivia Mendivil Ramos, M. Joaquina Delás, Giorgia Battistoni, Osama El Demerdash, Ilaria Falciatori, Dita B. Vizoso, Andrew D. Smith, Peter Ladurner, Lukas Schärer, W. Richard McCombie, Gregory J. Hannon, Michael Schatz" tabindex="0">
+        Kaja Wasik, James Gurtowski, Xin Zhou, Olivia Mendivil Ramos, M. Joaquina Delás, …, Peter Ladurner, Lukas Schärer, W. Richard McCombie, Gregory J. Hannon, Michael Schatz
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Proceedings of the National Academy of Sciences</span>
+         · 
+        <span class="citation-date">21 Sep 2015</span>
+         · 
+        <span class="citation-id">doi:10.1073/pnas.1516718112</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Proceedings of the National Academy of Sciences
-        ·  
-      21 Sep 2015
-        ·  
-      doi:10.1073/pnas.1516718112
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2013">2013</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/f4r3hm" class="citation-image" aria-label="Dogma Derailed: The Many Influences of RNA on the Genome">
-      <img src="" alt="Dogma Derailed: The Many Influences of RNA on the Genome" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/f4r3hm" class="citation-image" aria-label="Dogma Derailed: The Many Influences of RNA on the Genome">
+        <img src="" alt="Dogma Derailed: The Many Influences of RNA on the Genome" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/f4r3hm" class="citation-title">
-      Dogma Derailed: The Many Influences of RNA on the Genome
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Leah R. Sabin, M. Joaquina Delás, Gregory J. Hannon
+      <a href="https://doi.org/f4r3hm" class="citation-title">
+        Dogma Derailed: The Many Influences of RNA on the Genome
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Leah R. Sabin, M. Joaquina Delás, Gregory J. Hannon
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Molecular Cell</span>
+         · 
+        <span class="citation-date">01 Mar 2013</span>
+         · 
+        <span class="citation-id">doi:10.1016/j.molcel.2013.02.010</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Molecular Cell
-        ·  
-      01 Mar 2013
-        ·  
-      doi:10.1016/j.molcel.2013.02.010
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2009">2009</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/c63znr" class="citation-image" aria-label="Yeast cultures with UCP1 uncoupling activity as a heating device">
-      <img src="" alt="Yeast cultures with UCP1 uncoupling activity as a heating device" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/c63znr" class="citation-image" aria-label="Yeast cultures with UCP1 uncoupling activity as a heating device">
+        <img src="" alt="Yeast cultures with UCP1 uncoupling activity as a heating device" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/c63znr" class="citation-title">
-      Yeast cultures with UCP1 uncoupling activity as a heating device
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" data-tooltip="Joaquina Delás, Meritxell Notari, Jaume Forés, Joaquín Pechuan, Manuel Porcar, Emilio Navarro, Arnau Montagud, Minerva Baguena, Juli Peretó, Pedro Fernández de Córdoba, M. Mar González-Barroso, Eduardo Rial, Andrés Moya, Javier Urchueguía " tabindex="0">
-      Joaquina Delás, Meritxell Notari, Jaume Forés, Joaquín Pechuan, Manuel Porcar, ..., Pedro Fernández de Córdoba, M. Mar González-Barroso, Eduardo Rial, Andrés Moya, Javier Urchueguía
+      <a href="https://doi.org/c63znr" class="citation-title">
+        Yeast cultures with UCP1 uncoupling activity as a heating device
+      </a>
+
+      <div class="citation-authors" data-tooltip="Joaquina Delás, Meritxell Notari, Jaume Forés, Joaquín Pechuan, Manuel Porcar, Emilio Navarro, Arnau Montagud, Minerva Baguena, Juli Peretó, Pedro Fernández de Córdoba, M. Mar González-Barroso, Eduardo Rial, Andrés Moya, Javier Urchueguía" tabindex="0">
+        Joaquina Delás, Meritxell Notari, Jaume Forés, Joaquín Pechuan, Manuel Porcar, …, Pedro Fernández de Córdoba, M. Mar González-Barroso, Eduardo Rial, Andrés Moya, Javier Urchueguía
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">New Biotechnology</span>
+         · 
+        <span class="citation-date">01 Dec 2009</span>
+         · 
+        <span class="citation-id">doi:10.1016/j.nbt.2009.09.005</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      New Biotechnology
-        ·  
-      01 Dec 2009
-        ·  
-      doi:10.1016/j.nbt.2009.09.005
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
   </section>
@@ -1462,11 +1553,11 @@
 
 
 <footer class="background" style="--image: url('/images/background.jpg')" data-dark="true" data-size="wide">
-
+  <!--
     <div>
-      Gower Street  |  London WC1E 6BT UK  
+      Extra details like contact info or address
     </div>
-
+  -->
 
   <div>
     
@@ -1554,7 +1645,6 @@
     <a href="https://github.com/greenelab/lab-website-template">
       Lab Website Template
     </a>
-    
   </div>
 
   <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
