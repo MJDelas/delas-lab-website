@@ -4,4 +4,6 @@ author: a-joaquina-delas
 tags: publications
 ---
 
-After years of zoom calls, happy to share "Reconstructing Waddington’s landscape from data", [Cislo et al 2025](https://www.pnas.org/doi/10.1073/pnas.2521762122)
+After years of zoom calls, happy to share "Reconstructing Waddington’s landscape from data", [Cislo et al 2025][def]
+
+[def]: https://www.pnas.org/doi/10.1073/pnas.2521762122
