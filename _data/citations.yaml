@@ -225,7 +225,9 @@
 - id: doi:10.1016/bs.ctdb.2020.03.003
   title: 'Repressive interactions in gene regulatory networks: When you have no other
     choice'
-  authors: []
+  authors:
+  - "M Joaquina Del\xE1s"
+  - James Briscoe
   publisher: Current Topics in Developmental Biology
   date: '2020-01-01'
   link: https://doi.org/gs4jpq
