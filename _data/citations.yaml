@@ -354,3 +354,15 @@
   orcid: 0000-0001-9727-9068
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1073/pnas.2521762122
+  title: "Reconstructing Waddington\u2019s landscape from data"
+  authors:
+  - Dillon J. Cislo
+  - "M. Joaquina Del\xE1s"
+  - James Briscoe
+  - Eric D. Siggia
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2025-12-03'
+  link: https://doi.org/hbnh3c
+  plugin: sources.py
+  file: sources.yaml
