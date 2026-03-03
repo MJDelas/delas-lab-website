@@ -1,5 +1,27 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.64898/2026.02.25.707914
+  title: "Co-option of a mouse-specific retrotransposon rewires\n                \
+    \  <i>Ash2l</i>\n                  isoform usage to prime developmental promoters"
+  authors:
+  - Eleanor Elgood Hunt
+  - Claudia Vivori
+  - Richard Mitter
+  - Jenie Hannah Johnkingsly Jebaraj
+  - Vedis Agnadottir
+  - "M. Joaquina Del\xE1s"
+  - Eduardo Serna Morales
+  - Tom Frith
+  - Mark Skehel
+  - Alberto Elosegui Artola
+  - James Briscoe
+  - Folkert J. van Werven
+  publisher: openRxiv
+  date: '2026-02-26'
+  link: https://doi.org/hbq9d5
+  orcid: 0000-0001-9727-9068
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1242/dev.205516
   title: 'How to build the regulatory genome: a constructionist guide to the cis-regulatory
     code'
