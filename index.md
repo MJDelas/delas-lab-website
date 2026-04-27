@@ -20,7 +20,7 @@ We are located at the [LMCB, UCL](https://www.ucl.ac.uk/life-sciences/delas-lab)
 
 {% capture text %}
 
-We are passionate about development, differentiation and gene regulation. We combine dry and wet lab, spanning from cellular models to embryology, genomics and lots of flow cytometry.
+We are passionate about development, differentiation and gene regulation. We combine dry and wet lab, spanning from cellular models to embryology, genomics, proteomics and lots of flow cytometry.
 
 <!---
 [Learn more about our research &nbsp;→](research)
