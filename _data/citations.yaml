@@ -1,5 +1,28 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.64898/2026.06.06.730555
+  title: Minimal essential requirements for neural tube self-organisation
+  authors:
+  - Hannah T. Stuart
+  - Elena Costantini
+  - Jingkui Wang
+  - Teresa Krammer
+  - M. Joaquina Delas
+  - Manuela Melchionda
+  - Jake Cornwall-Scoones
+  - Gerald Schmauss
+  - Thomas Lendl
+  - Keisuke Ishihara
+  - David Rand
+  - "Meritxell S\xE1ez"
+  - Elly M. Tanaka
+  - James Briscoe
+  publisher: openRxiv
+  date: '2026-06-08'
+  link: https://doi.org/hb62wt
+  orcid: 0000-0001-9727-9068
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.64898/2026.02.25.707914
   title: Lineage-specific retrotransposon co-option reveals a conserved ASH2L isoform
     as an epigenetic primer of developmental gene promoters
