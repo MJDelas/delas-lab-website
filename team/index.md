@@ -12,15 +12,25 @@ Meet our team:
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %} {% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+{% include list.html data="members" component="portrait" filter="role == 'pi'" %} 
+{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+
 
 {% include section.html background="images/UCL.jpg" dark=true %}
 
 Do you want to hear more?
 
+Please [reach out](/recruitment) if you are interested in joining. We are happy to support Early Career/postdoc fellowships. 
+
 {% include section.html %}
 
-Please [reach out](/recruitment) if you are interested in joining. We are happy to support Early Career/postdoc fellowships. 
+## Alumni
+
+
+{% include list.html data="members" component="portrait" filter="group == 'alum'" style="small" %}
+
+{% include section.html %}
+
 
 {% capture content %}
 
