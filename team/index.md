@@ -13,7 +13,7 @@ Meet our team:
 {% include section.html %}
 
 {% include list.html data="members" component="portrait" filter="role == 'pi'" %} 
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+{% include list.html data="members" component="portrait" filter="role != 'pi' and group != 'alum'" %}
 
 
 {% include section.html background="images/UCL.jpg" dark=true %}
