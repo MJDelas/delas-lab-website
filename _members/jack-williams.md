@@ -1,7 +1,6 @@
 ---
 name: Jack Williams
 image: images/photo_jack.jpeg
-description: Postdoc
 role: postdoc
 links:
   email: 
