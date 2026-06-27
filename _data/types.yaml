@@ -18,6 +18,10 @@ rotation:
   icon: fa-solid fa-graduation-cap
   description: Rotation PhD Student
 
+visiting:
+  icon: fa-solid fa-vial
+  description: Visiting researcher
+
 undergrad:
   icon: fa-solid fa-user-graduate
   description: Undergraduate Student
