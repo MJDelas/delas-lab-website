@@ -1,5 +1,16 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1016/j.gde.2026.102505
+  title: Cis-regulatory strategies in developmental patterning
+  authors:
+  - Jack PC Williams
+  - "M Joaquina Del\xE1s"
+  publisher: Current Opinion in Genetics &amp; Development
+  date: '2026-10-01'
+  link: https://doi.org/hcc6c6
+  orcid: 0000-0001-9727-9068
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.64898/2026.06.06.730555
   title: Minimal essential requirements for neural tube self-organisation
   authors:
