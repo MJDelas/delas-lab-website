@@ -13,6 +13,9 @@ You can find a selection and all our publications below. We are big fans of pre-
 
 ## Highlighted
 
+{% include citation.html lookup="Cis-regulatory strategies in developmental patterning" style="rich" %}
+
+
 {% include citation.html lookup="Predictable Engineering of Signal-Dependent Cis-Regulatory Elements" style="rich" %}
 
 {% include citation.html lookup="The cis-regulatory logic integrating spatial and temporal patterning in the vertebrate neural tube" style="rich" %}
