@@ -1,3 +1,6 @@
+-id: doi:10.1371/journal.pbio.3003953
+  image: images/fig_Marine_website_diagram.png
+
 - id: doi:10.1016/j.gde.2026.102505
   image: images/paper_jackreview.png
 
@@ -7,7 +10,6 @@
   - James Briscoe
 
 - id: doi:10.1101/2025.05.28.656648
-  image: images/fig_Marine_website_diagram.png
   publisher: Pre-print on biorxiv
 
 - id: doi:10.1101/2025.08.11.669575
