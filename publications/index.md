@@ -22,7 +22,7 @@ You can find a selection and all our publications below. We are big fans of pre-
 
 {% include citation.html lookup="Developmental cell fate choice in neural tube progenitors employs two distinct cis-regulatory strategies" style="rich" %}
 
-{% include citation.html lookup="Dynamic Landscape Analysis of Cell Fate Decisions: Predictive Models of Neural Development From Single-Cell Data" style="rich" %}
+{% include citation.html lookup="Dynamic Landscape Analysis of cell fate decisions provides predictive models of neural development from single-cell data" style="rich" %}
 
 {% include citation.html lookup="Sox2 levels regulate the chromatin occupancy of WNT mediators in epiblast progenitors responsible for vertebrate body formation" style="rich" %}
 
