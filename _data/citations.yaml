@@ -157,6 +157,7 @@
   orcid: 0000-0001-9727-9068
   plugin: sources.py
   file: sources.yaml
+  image: images/fig_Marine_website_diagram.png
 - id: doi:10.1101/2025.03.07.642002
   title: Predictable Engineering of Signal-Dependent Cis-Regulatory Elements
   authors:
