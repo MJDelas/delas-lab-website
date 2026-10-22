@@ -1,8 +1,8 @@
-- id: doi:10.1371/journal.pbio.3003953
-  image: images/fig_Marine_website_diagram.png
-
 - id: doi:10.1016/j.molcel.2026.09.016
   image: https://ars.els-cdn.com/content/image/1-s2.0-S1097276526006593-gr2.jpg
+
+- id: doi:10.1371/journal.pbio.3003953
+  image: images/fig_Marine_website_diagram.png
 
 - id: doi:10.1016/j.gde.2026.102505
   image: images/paper_jackreview.png
