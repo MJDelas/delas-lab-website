@@ -13,6 +13,8 @@ You can find a selection and all our publications below. We are big fans of pre-
 
 ## Highlighted
 
+{% include citation.html lookup="Integration by parts: The multi-layered mechanisms of cis-regulatory control" style="rich" %}
+
 {% include citation.html lookup="Cis-regulatory strategies in developmental patterning" style="rich" %}
 
 
